@@ -1,0 +1,123 @@
+/* pages/index/index.wxss */
+.container_header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20rpx;
+  /* 20rpx=10px */
+  box-sizing: border-box;
+
+}
+
+.swiper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rpx;
+}
+
+/* 轮播图样式s */
+.swiper_image {
+  width: 100%;
+  height: auto;
+  border-radius: 20rpx;
+}
+
+/* 功能菜单 */
+.container_menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx 20rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+
+.menu_item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.view_image {
+  width: 100%;
+  height: 80 rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_image {
+  width: 80rpx;
+  height: 80 rpx;
+}
+
+/*文案  */
+.container-copywrite {
+  margin-top: 20rpx;
+}
+
+/* 文案展示标题 */
+.view-copywrite {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.copywrite-item {
+  width: 100%;
+  min-height: 80rpx;
+  box-shadow: 0 0 10rpx #7a9ff8;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+}
+
+.copywrite-head {}
+
+.copywrite-content {
+  font-size: 28rpx;
+}
+
+/* 头像 */
+.copywrite-headImage {
+  width: 60rpx;
+  min-height: 60rpx;
+  border-radius: 100%;
+  margin-right: 20rpx;
+}
+
+.scroll-view-mettle {
+  display: flex;
+  padding: 0 20rpx;
+  box-sizing:border-box;
+}
+
+.mettle-item {
+  margin: 20rpx 20rpx;
+}
+.mettle-item:first-child {
+  margin-left: 0;
+}
+.mettle-image {
+  height: 800rpx;
+  border-radius: 20rpx;
+}

@@ -1,0 +1,114 @@
+<!--pages/index/index.wxml-->
+<view class="view-container">
+  <view class="container_header">
+    <swiper class="swiper" indicator-dots="{{true}}" autoplay>
+      <swiper-item class="swiper-item">
+        <image class="swiper_image" src="images/智慧工地.png" mode="widthFix"/>
+      </swiper-item>
+      <swiper-item class="swiper-item">
+        <image class="swiper_image" src="images/智慧土木2.jpg" mode="widthFix"/>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 功能菜单 -->
+  <view class="container_menu">
+    <view class="menu_item">
+    <view class="view_image">
+      <image src="images/fileManage.png" mode="widthFix" class="menu_image"/>
+    </view>
+    <view class="menu_title">
+      壁纸
+    </view>
+    </view>
+    <view class="menu_item">
+      <view class="view_image">
+      <image src="images/文案.png" mode="widthFix" class="menu_image"/>
+    </view>
+    <view class="menu_title">
+      文案
+    </view>
+    </view>
+    <view class="menu_item">
+      <view class="view_image">
+      <image src="images/头像管理.png" mode="widthFix" class="menu_image"/>
+    </view>
+    <view class="menu_title">
+      头像
+    </view>
+    </view>
+    <view class="menu_item">
+      <view class="view_image">
+      <image src="images/表情包.png" mode="widthFix" class="menu_image"/>
+    </view>
+    <view class="menu_title">
+      表情包
+    </view>
+    </view>
+    <view class="menu_item">
+      <view class="view_image">
+      <image src="images/文章.png" mode="widthFix" class="menu_image"/>
+    </view>
+    <view class="menu_title">
+      文章
+    </view>
+    </view>
+  </view>
+<!-- 推荐文案 -->
+  <view class="container-copywrite">
+    <recommend-item title="热门文案"></recommend-item>
+    <!-- 文案 -->
+    <view class="view-copywrite"> 
+      <view class="copywrite-item">
+        <view class="copywrite-head">
+          <image class="copywrite-headImage" src="images/头像.jfif" mode="widthFix"/>
+        </view>
+        <view class="copywrite-content">
+          配的文字
+        </view>
+      </view>
+      <view class="copywrite-item">
+        <view class="copywrite-head">
+          <image class="copywrite-headImage" src="images/头像.jfif" mode="widthFix"/>
+        </view>
+        <view class="copywrite-content">
+          配的文字
+        </view>
+      </view>
+      <view class="copywrite-item">
+        <view class="copywrite-head">
+          <image class="copywrite-headImage" src="images/头像.jfif" mode="widthFix"/>
+        </view>
+        <view class="copywrite-content">
+          配的文字
+        </view>
+      </view>
+      <view class="copywrite-item">
+        <view class="copywrite-head">
+          <image class="copywrite-headImage" src="images/头像.jfif" mode="widthFix"/>
+        </view>
+        <view class="copywrite-content">
+          配的文字
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 热门壁纸 -->
+  <view class="container_mettle">
+    <recommend-item title="推荐壁纸"></recommend-item>
+    <scroll-view scroll-x class="scroll-view-mettle" enable-flex >
+      <view class="mettle-item">
+        <image class="mettle-image" src="images/image1.jpg" mode="heightFix"/>
+      </view>
+      <view class="mettle-item">
+        <image  class="mettle-image"  src="images/image2.jpg" mode="heightFix"/>
+      </view>
+      <view class="mettle-item">
+        <image  class="mettle-image" src="images/image3.jpg" mode="heightFix"/>
+      </view>
+      <view class="mettle-item">
+        <image class="mettle-image" src="images/image4.jpg" mode="heightFix"/>
+      </view>
+    </scroll-view>
+  </view>
+
+</view>

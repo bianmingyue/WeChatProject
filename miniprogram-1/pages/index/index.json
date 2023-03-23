@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "recommend-item":"/components/recommend-item/index"
+  }
+  
+}

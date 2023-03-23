@@ -1,0 +1,19 @@
+<!--components/recommend-item/index.wxml-->
+<view class="view-recommend">
+  <view class="recommend-left">
+    <view class="left-titlebox" style="background-color:{{titleBoxColor}};">
+     
+    </view>
+    <view style="color: {{titleColor}};">
+      {{title}}
+    </view>
+  </view>
+  <view class="recommend-right">
+   <view class="right-gd">
+     更多
+   </view>
+   <view>
+   >
+   </view>
+  </view>
+</view>
